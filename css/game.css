@@ -1,0 +1,40 @@
+
+.background    { background: rgb(150, 0, 20);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 25, 0); }
+.wall          { background: white;   }
+.ash           { background: rgb(190, 186, 167); }
+
+.actor  { position: absolute;  }
+.player { background-image: url(images/Skeleton.png);
+        background-size: 16px 30px;}
+.coin { background-image: url("images/dollar.gif");
+        background-size: 12px 12px;}
+.jump { background: url("images/Spring.png");
+        background-size: 21px 26px;}
+.speed { background: url("images/drink.png");
+        background-size: 12px 12px;}
+.slow { background: url("images/drink1.png");
+        background-size: 12px 12px;}
+.banner { background: url("images/Winner.png");
+        background-size: 500px 500px;}
+
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.left .player{ background-image: url(images/Skeleton1.png);
+               background-size: 16px 30px;}
+.lost .player { background: rgb(255, 25, 0);
+                background-image: url(images/Skeleton.png);
+                background-size: 16px 30px;}
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
